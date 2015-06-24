@@ -6,8 +6,9 @@ let homeModule = angular.module('home', [])
 	.directive('home', function () {
 		return {
 			template,
-			controller	
+			controller,
+			restrict: 'E'	
 		};
 	});
 	
-export {homeModule};
+export { homeModule };
