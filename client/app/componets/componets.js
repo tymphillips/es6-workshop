@@ -1,3 +1,3 @@
 import {homeModule} from './home/home';
-
-export {homeModule};
+import {noteMakerModule} from './noteMaker/noteMaker';
+export {homeModule, noteMakerModule};
