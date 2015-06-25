@@ -2,7 +2,7 @@ var gulp = require('gulp'),
 	webpack = require('gulp-webpack'),
 	serve = require('browser-sync'),
 	paths = {
-		app: ['client/app/**/*.js']
+		app: ['client/app/**/*.{js,css,html}']
 	},
     sync = require('run-sequence');
 	

@@ -4,4 +4,4 @@ class NoteMakerController {
 	}
 }
 
-export {NoteMakerController}
+export {NoteMakerController};
